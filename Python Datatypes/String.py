@@ -43,7 +43,10 @@ for value in s2[::2]:
 help(str)
 
 
-
+ss="Sapana Subedi!"
+print(ss[::4])  #Snui
+print(ss[::-1]) #!idebuS anapaS
+print(ss[::-2]) #!dbSaaa
 
 '''
 BuiltIn Functions'''
@@ -52,6 +55,10 @@ num1 = 100
 num2 = 200
 print('value of num1 is', num1,'value of num2', num2)
 
+
+
+print("==========String Methods=========")
+#string methods
 #define string with a format method
 print("value of num1 is {} value of num2 is {}".format(num1,num2)) #inside of place holder you can specify index
 
@@ -60,7 +67,7 @@ print(id(s))
 
 s=s.capitalize() #first letter
 print(s)
-print(id(s)) #different location
+print(id(s)) #different memory location
 
 print(s.isupper())
 s1=s.title() #Python Sample String
@@ -68,6 +75,15 @@ print(s1)
 
 print(s1.istitle() )
 print(s1.islower())
+
+print("==========String Methods=========")
+
+print(s.find("sample")) #7
+print(len(s)) #20
+
+
+
+
 
 
 '''Split/Join'''
