@@ -10,14 +10,11 @@ print(addition)
 #type: data types of a particular function
 
 print(type(first_num), type(sec_num))
+print(id(first_num), id(sec_num)) #to know memory location
 
-#to know mem location
-
-print(id(first_num), id(sec_num))
 
 
 a = 10
 b = 10
 
 print(id(a), id(b))# memory location of both variable is same as value of both variable is same  which is called as object intering
-
