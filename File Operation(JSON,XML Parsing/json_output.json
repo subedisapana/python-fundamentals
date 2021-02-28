@@ -1,0 +1,15 @@
+{
+    "database": {
+        "host": "localhost",
+        "password": "1234",
+        "port": 3000,
+        "user": "root"
+    },
+    "files": {
+        "errorLog": "/log/error.log",
+        "log": [
+            "/log/app.log",
+            "/log/mysql/app.log"
+        ]
+    }
+}
